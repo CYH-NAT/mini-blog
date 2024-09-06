@@ -1,5 +1,5 @@
 # 簡介
-使用tailwind與Vue3作成的mini-blog sample，5種大小的RWD設計，並加入flex布局、菜單縮放功能.
+使用tailwind與Vue3作成的mini-blog sample，5種大小的RWD設計，並加入flex布局、浮動菜單、菜單縮放功能.
 # 使用技術
 Vue3+Vite+tailwindCSS
 # 安裝依賴
