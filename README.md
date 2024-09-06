@@ -7,7 +7,7 @@ Vue3+Vite+tailwindCSS
 # 運行
 ### npm run dev
 # 預覽圖片
-![image](https://github.com/user-attachments/assets/274178ed-6199-4f9a-9908-3808a9204e4d)
+![image](https://github.com/user-attachments/assets/47cab128-a19f-40ae-8354-7f419c4c0939)
 ![image](https://github.com/user-attachments/assets/7deffe64-8d6c-403f-8b3e-242b95bbede5)
 
 # 線上demo
