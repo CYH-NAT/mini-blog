@@ -1,5 +1,14 @@
-# Vue 3 + Vite
+# 簡介
+使用tailwind與Vue3作成的mini-blog sample，5種大小的RWD設計，並加入flex布局、菜單縮放功能.
+# 使用技術
+Vue3+Vite+tailwindCSS
+# 安裝依賴
+### npm install
+# 運行
+### npm run dev
+# 預覽圖片
+![image](https://github.com/user-attachments/assets/274178ed-6199-4f9a-9908-3808a9204e4d)
+![image](https://github.com/user-attachments/assets/7deffe64-8d6c-403f-8b3e-242b95bbede5)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+# 線上demo
+https://snazzy-youtiao-e40ba1.netlify.app/
