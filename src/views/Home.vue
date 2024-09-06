@@ -56,6 +56,7 @@
                     tag="Portrait" />
                 <post :url="getImageUrl('../assets/image/6.jpg')" title="Burberry Hannah" date="12/13/2022" msg="沒有留言"
                     tag="Portrait" />
+                <post :url="pic" title="測試" date="12/13/2022" msg="沒有留言"/>
             </div>
             <!-- 側邊欄 -->
         </div>
@@ -73,6 +74,7 @@
 import { ref } from 'vue';
 import Post from '../components/Post.vue';
 import Tag from '../components/Tag.vue';
+import pic from '../assets/image/6.jpg'
 
 const hidden = ref('hidden');
 const chg = () => {
