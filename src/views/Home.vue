@@ -40,23 +40,22 @@
                         </div>
                     </div>
                 </div> -->
-                <post :url="getImageUrl('../assets/image/meme-doge.gif')" title="Doge" date="9/06/2024" msg="沒有留言"
+                <post :url="doge" title="Doge" date="9/06/2024" msg="沒有留言"
                     tag="搞笑" />
-                <post :url="getImageUrl('../assets/image/吶喊.PNG')" title="頭痛" date="9/06/2024" msg="沒有留言"
+                <post :url="headache" title="頭痛" date="9/06/2024" msg="沒有留言"
                     tag="搞笑" />
-                <post :url="getImageUrl('../assets/image/1.jpg')" title="Austin x Kenzo" date="7/28/2024" msg="沒有留言"
+                <post :url="pic1" title="Austin x Kenzo" date="7/28/2024" msg="沒有留言"
                     tag="" />
-                <post :url="getImageUrl('../assets/image/2.jpg')" title="Hannah x 森呼吸" date="7/28/2024" msg="沒有留言"
+                <post :url="pic2" title="Hannah x 森呼吸" date="7/28/2024" msg="沒有留言"
                     tag="Portrait" />
-                <post :url="getImageUrl('../assets/image/3.jpg')" title="Naomi" date="7/28/2024" msg="沒有留言"
+                <post :url="pic3" title="Naomi" date="7/28/2024" msg="沒有留言"
                     tag="Portrait" />
-                <post :url="getImageUrl('../assets/image/4.jpg')" title="Ann  x Chanel" date="7/28/2024" msg="沒有留言"
+                <post :url="pic4" title="Ann  x Chanel" date="7/28/2024" msg="沒有留言"
                     tag="Portrait" />
-                <post :url="getImageUrl('../assets/image/5.jpg')" title="Chanel  許瑋甯" date="12/13/2022" msg="沒有留言"
+                <post :url="pic5" title="Chanel  許瑋甯" date="12/13/2022" msg="沒有留言"
                     tag="Portrait" />
-                <post :url="getImageUrl('../assets/image/6.jpg')" title="Burberry Hannah" date="12/13/2022" msg="沒有留言"
+                <post :url="pic6" title="Burberry Hannah" date="12/13/2022" msg="沒有留言"
                     tag="Portrait" />
-                <post :url="pic" title="測試" date="12/13/2022" msg="沒有留言"/>
             </div>
             <!-- 側邊欄 -->
         </div>
@@ -74,7 +73,14 @@
 import { ref } from 'vue';
 import Post from '../components/Post.vue';
 import Tag from '../components/Tag.vue';
-import pic from '../assets/image/6.jpg'
+import pic1 from '../assets/image/1.jpg'
+import pic2 from '../assets/image/2.jpg'
+import pic3 from '../assets/image/3.jpg'
+import pic4 from '../assets/image/4.jpg'
+import pic5 from '../assets/image/5.jpg'
+import pic6 from '../assets/image/6.jpg'
+import doge from '../assets/image/meme-doge.gif'
+import headache from '../assets/image/headache.png'
 
 const hidden = ref('hidden');
 const chg = () => {
